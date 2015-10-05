@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+background-color: black;
+font-family: Helvetica;
+background-image: url('backgrnd2.jpg');
+background-attachment: fixed;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#header {
+margin-top: 0;
+border: 0px solid black;
+padding: 5px;
+width: 86%;
+height: 390px;
+background-image: url('head.jpg');
+
+}
+
+#odb {
+display: none;
+}
+
+#rae {
+display: none;
+}
+
+#meth {
+display: none;
+}
+
+#ghost {
+display: none;
+}
+
+#rza {
+display: none;
+}
+
+#gza {
+display: none;
+}
+
+#main {
+width: 60%;
+border: 10px #FFD633 ridge;
+margin: auto;
+padding: 10px;
+background-color: white;
+background-image: url('backgrnd1.jpg');
+background-repeat: no-repeat;
+}
+</style>
+<title>Which Wu-Tang Member Are You?</title>
+</head>
+<body>
+<div id="main">
+<div id="header"></div>
+<form id="form1"  action=" "/>
+
+
+<p><b>Which of the following best describes you on a daily basis?</b><br />
+<br></br>
+<input type="radio" name="daily" id="chill" value="1" />Pretty chill.<br />
+<input type="radio" name="daily" id="loud" value="6" />Talkative and outgoing.</p>
+<input type="radio" name="daily" id="creative" value="3" />Creative and motivated.</p>
+<input type="radio" name="daily" id="lazy" value="5" />Would rather stay in bed.</p>
+<input type="radio" name="daily" id="eager" value="4" />Studious and eager to learn.</p>
+<input type="radio" name="daily" id="energetic" value="2" />Energetic and always ready for anything.</p>
+
+<p><b>What do you like to eat?</b><br />
+<br></br>
+<input type="radio" name="eat" id="fast" value="6" />Fast food.<br />
+<input type="radio" name="eat" id="cook" value="1" />Whatever I cook, which is always amazing.</p>
+<input type="radio" name="eat" id="cultures" value="4" />I like trying different food from different cultures.</p>
+<input type="radio" name="eat" id="cream" value="5" />Ice cream.</p>
+<input type="radio" name="eat" id="steak" value="2" />Steak</p>
+<input type="radio" name="eat" id="chinese" value="3" />Chinese food.</p>
+
+
+<p><b>Ideally, how would you spend a night off?</b><br />
+<br></br>
+<input type="radio" name="night" id="party" value="6" />Going out to Party as much as possible, all night.<br />
+<input type="radio" name="night" id="house" value="2" />Having an ill house party with close friends</p>
+<input type="radio" name="night" id="movies" value="5" />Staying in and watching some movies with someone special while eating junk food. </p>
+<input type="radio" name="night" id="dinner" value="1" />Cooking for and hosting a dinner party.</p>
+<input type="radio" name="night" id="book" value="4" />Staying in and reading a good book.</p>
+<input type="radio" name="night" id="music" value="3" />Listening to some good music while having drinks and conversing with friends.</p>
+
+
+<p><b>What kind of movies do you like?</b><br />
+<br></br>
+<input type="radio" name="movies" id="horror" value="2" />Horror movies.<br />
+<input type="radio" name="movies" id="crime" value="1" />Crime Movies.</p>
+<input type="radio" name="movies" id="kung" value="3" />Kung Fu movies.</p>
+<input type="radio" name="movies" id="doc" value="4" />Documentaries.</p>
+<input type="radio" name="movies" id="comedy" value="5" />Comedies.</p>
+<input type="radio" name="movies" id="action"value="6" />Action movies. </p>
+
+
+<p><b>Pick a color.</b><br />
+<br></br>
+<input type="radio" name="color" id="purple" value="1" />Purple<br />
+<input type="radio" name="color" id="gold" value="2" />Gold</p>
+<input type="radio" name="color" id="blue" value="3" />Blue</p>
+<input type="radio" name="color" id="red" value="4" />Red</p>
+<input type="radio" name="color" id="green" value="5" />Green</p>
+<input type="radio" name="color" id="yellow" value="6" />Yellow</p>
+
+
+<p><b>What makes you happy?</b><br />
+<br></br>
+<input type="radio" name="happy" id="always" value="6" />Making people laugh.<br />
+<input type="radio" name="happy" id="creating" value="3" />Creating.</p>
+<input type="radio" name="happy" id="learning" value="4" />Learning.</p>
+<input type="radio" name="happy" id="paid" value="2" />Getting paid.</p>
+<input type="radio" name="happy" id="special" value="5" />My significant other.</p>
+<input type="radio" name="happy" id="helping" value="1" />Giving back.</p>
+
+<p><input type="submit" value="Go!" /> 
+
+
+</form>
+<p>
+<span id="odb"><a href= "https://www.youtube.com/watch?v=h2zgB93KANE" target="_blank"><img src="odb.jpg" width="600" ></a></span>
+<span id="rae"><a href= "https://www.youtube.com/watch?v=9pRHZm8LPZQ" target="_blank"><img src="rae.jpg" width="600" /></a></span>
+<span id="ghost"><a href= "https://www.youtube.com/watch?v=6gmQZtfx51k" target="_blank"><img src="ghost.jpg" width="600" /></a></span>
+<span id="meth"><a href= "https://www.youtube.com/watch?v=PEnwXYJcSZc" target="_blank"><img src="meth.jpg" width="600" /></a></span>
+<span id="rza"><a href= "https://www.youtube.com/watch?v=CE3hb__ylG4" target="_blank"><img src="rza.jpg" width="600" /></a></span>
+<span id="gza"><a href= "https://www.youtube.com/watch?v=ZiQoVv0FSKQ" target="_blank"><img src="gza.jpg" width="600" /></a></span>
+
+
+</p>
+<p id="answer"></p>
+<p id="answer2"></p>
+</div>
+
+<script>
+dailyvar = ['chill', 'loud', 'creative', 'lazy', 'eager', 'energetic'];
+nightvar = ['party', 'house', 'movies', 'dinner', 'book', 'music'];
+eatvar = ['fast', 'cook', 'cultures', 'cream', 'steak', 'chinese'];
+moviesvar = ['horror', 'crime', 'kung', 'doc', 'comedy', 'action'];
+colorvar = ['purple', 'gold', 'blue', 'red', 'green', 'yellow'];
+happyvar = ['always', 'creating', 'learning', 'paid', 'special', 'helping'];
+    
+	   document.getElementById("form1").onsubmit=function() {
+	   for(i=0; i<dailyvar.length; i++) {
+	   if (document.getElementById(dailyvar[i]).checked) {
+	   daily = document.getElementById(dailyvar[i]).value; 
+	   }
+	   }//end for
+	   
+	   for(i=0; i<nightvar.length; i++) {
+	   if (document.getElementById(nightvar[i]).checked) {
+	   night = document.getElementById(nightvar[i]).value; 
+	   }
+	   }//end for
+	   
+	   for(i=0; i<eatvar.length; i++) {
+	   if (document.getElementById(eatvar[i]).checked) {
+	   eat = document.getElementById(eatvar[i]).value; 
+	   }
+	   }//end for
+	   
+	   for(i=0; i<moviesvar.length; i++) {
+	   if (document.getElementById(moviesvar[i]).checked) {
+	   movies = document.getElementById(moviesvar[i]).value; 
+	   }
+	   }//end for
+	   
+	   for(i=0; i<colorvar.length; i++) {
+	   if (document.getElementById(colorvar[i]).checked) {
+	   color = document.getElementById(colorvar[i]).value; 
+	   }
+	   }//end for
+	   
+	   for(i=0; i<happyvar.length; i++) {
+	   if (document.getElementById(happyvar[i]).checked) {
+	   happy = document.getElementById(happyvar[i]).value; 
+	   }
+	   }//end for
+	   
+	   
+	   total = parseInt(daily) + parseInt(night) + parseInt(eat) + parseInt(movies) + parseInt(color) + parseInt(happy);
+	   
+	   
+
+function off() {
+document.getElementById("rae").style.display = "none";
+document.getElementById("ghost").style.display = "none";
+document.getElementById("rza").style.display = "none";
+document.getElementById("gza").style.display = "none";
+document.getElementById("meth").style.display = "none";
+document.getElementById("odb").style.display = "none";
+}
+
+
+
+
+
+
+if(total >= 6) {
+document.getElementById("answer2").innerHTML = "You got Raekwon!";
+off();
+document.getElementById("rae").style.display = "block";
+}
+if(total >=12 ) {
+document.getElementById("answer2").innerHTML = "You got Ghostface!";
+off();
+document.getElementById("ghost").style.display = "block";
+}
+if(total >=18) {
+document.getElementById("answer2").innerHTML = "You got the RZA!";
+off();
+document.getElementById("rza").style.display = "block";
+}   
+if(total >=24) {
+document.getElementById("answer2").innerHTML = "You got the GZA!";
+off();
+document.getElementById("gza").style.display = "block";
+}
+if(total >=30) {
+document.getElementById("answer2").innerHTML = "You got the Method Man!";
+off();
+document.getElementById("meth").style.display = "block";
+}
+if(total >=36) {
+document.getElementById("answer2").innerHTML = "You got OLd Dirty Bastard!";
+off();
+document.getElementById("odb").style.display = "block";
+}
+return false; 
+	   }
+	</script>
+
+
+</body>
+</html>
